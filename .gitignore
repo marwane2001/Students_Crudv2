@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+
+# Angular build artifacts
+/dist/
+/out-tsc/
+/coverage/
+
+# IDE or Editor directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript configuration files
+tsconfig*.json
+
+# Angular CLI cache
+.angular/
+
+# Environment files (if you use different environments)
+src/environments/*
+
+# Log files
+*.log
+
+# Temporary files created by the OS or editors
+*.swp
+*.bak
+
+# Other
+/coverage/
+/*.tgz
+*.tgz
