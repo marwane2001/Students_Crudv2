@@ -1,39 +1,12 @@
 {
   "students": [
+
     {
-      "id": "1",
-      "name": "Sarah Ahmed",
-      "age": 22,
-      "gender": "Female",
-      "sector": "Computer Science"
-    },
-    {
-      "id": "2",
-      "name": "Youssef Chakir",
-      "age": 23,
-      "gender": "Male",
-      "sector": "Software Engineering"
-    },
-    {
-      "id": "3",
-      "name": "Amina Lahlou",
-      "age": 21,
-      "gender": "Female",
-      "sector": "Data Science"
-    },
-    {
-      "id": "4",
-      "name": "Hassan Bouzid",
-      "age": 24,
-      "gender": "Male",
-      "sector": "Electrical Engineering"
-    },
-    {
-      "id": "5",
-      "name": "Fatima Zahra",
-      "age": 20,
-      "gender": "Female",
-      "sector": "Mechanical Engineering"
+      "id": 1,
+      "name": "das",
+      "age": 3,
+      "gender": "dd",
+      "sector": "22"
     }
   ]
 }

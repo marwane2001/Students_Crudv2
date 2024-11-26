@@ -1,43 +1,42 @@
-# Node modules
-node_modules/
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
-# Angular build artifacts
-/dist/
-/out-tsc/
-/coverage/
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
 
-# IDE or Editor directories
-.vscode/
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
 .idea/
-*.sublime-project
+.project
+.classpath
+.c9/
+*.launch
+.settings/
 *.sublime-workspace
 
-# OS generated files
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
 .DS_Store
 Thumbs.db
-
-# npm logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# TypeScript configuration files
-tsconfig*.json
-
-# Angular CLI cache
-.angular/
-
-# Environment files (if you use different environments)
-src/environments/*
-
-# Log files
-*.log
-
-# Temporary files created by the OS or editors
-*.swp
-*.bak
-
-# Other
-/coverage/
-/*.tgz
-*.tgz
